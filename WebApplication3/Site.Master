@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="WebApplication3.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+          <div>
+            <ul>
+                <li><a runat="server" href="~/Login.aspx">Login</a></li>
+                <li><a runat="server" href="~/Cadastro.aspx">Cadastro</a></li>
+                <li><a runat="server" href="~/Logout.aspx">Logout</a></li>
+            </ul>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="Content" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <footer>
+        <p>Autor: Marlos Sedrez<br>
+        <a href="mailto:marlos.sedrez@edu.sc.senai.br">marlos.sedrez@edu.sc.senai.br</a></p>
+    </footer>
+</body>
+</html>
