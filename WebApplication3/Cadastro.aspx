@@ -21,6 +21,6 @@
                     </Columns>
                 </asp:GridView>           
         </asp:Panel>
-        </div>
+        
         <hr />
 </asp:Content>
